@@ -1,8 +1,10 @@
 <script setup>
+import q from './data/quizes.json'
 </script>
 
 <template> 
     <div class=container>
+      {{ q }}
     <header> 
       <div class="h1">quiz</div>
        <input type="text" placeholder="Search...">
