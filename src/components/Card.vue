@@ -1,12 +1,22 @@
+<script setup>
+import { defineProps } from 'vue'
+
+const {quiz} = defineProps(['quiz'])
+console.log(quiz)
+
+</script>   
+
+
+
 <template>
   <div class="card">
-          <img src="./assets/bearGreen-spinning.svg">
+          <img :src="quiz.img" />
             <div class="card-text">
-              <h2>Math</h2>
-              <p>3 questions  </p>
+              <h2>{{quiz.name}}</h2>
+              <p>{{quiz.questions.length}} questions  </p>
             </div>
         </div>
-  <template />
+</template>
 
   <style scoped>
     .card {
