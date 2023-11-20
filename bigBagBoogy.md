@@ -2,7 +2,7 @@
 
 git init
 git add .
-git commit -m "added card"
+git commit -m "added search"
 git push -u origin main
 
 # todo:⭐️
