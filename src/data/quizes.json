@@ -287,6 +287,36 @@
                         "isCorrect": false
                     }
                 ]
+            },
+            {
+                "id": 4,
+                "text": "Which is not animal",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "boulder",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "cub",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "lam",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "goat",
+                        "isCorrect": false
+                    }
+                ]
             }
         ]
     }
